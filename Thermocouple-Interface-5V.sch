@@ -12011,18 +12011,18 @@ package type OT</description>
 <instance part="U1" gate="G$1" x="119.38" y="121.92"/>
 <instance part="TC1" gate="G$1" x="78.74" y="124.46" rot="R180"/>
 <instance part="GND1" gate="1" x="93.98" y="104.14"/>
-<instance part="JP1" gate="G$1" x="185.42" y="119.38" rot="R180"/>
+<instance part="JP1" gate="G$1" x="190.5" y="119.38" rot="R180"/>
 <instance part="U$1" gate="G$1" x="15.24" y="15.24"/>
 <instance part="C1" gate="G$1" x="101.6" y="114.3"/>
-<instance part="+3V2" gate="G$1" x="170.18" y="114.3" rot="R90"/>
-<instance part="GND2" gate="1" x="177.8" y="101.6"/>
+<instance part="+3V2" gate="G$1" x="175.26" y="114.3" rot="R90"/>
+<instance part="GND2" gate="1" x="182.88" y="104.14"/>
 <instance part="GND3" gate="1" x="101.6" y="104.14"/>
 <instance part="U$2" gate="G$1" x="22.86" y="15.24"/>
-<instance part="D1" gate="G$1" x="134.62" y="106.68"/>
+<instance part="D1" gate="G$1" x="177.8" y="88.9"/>
 <instance part="D2" gate="G$1" x="213.36" y="127"/>
 <instance part="GND4" gate="1" x="213.36" y="104.14"/>
-<instance part="GND5" gate="1" x="134.62" y="83.82"/>
-<instance part="R1" gate="G$1" x="134.62" y="93.98" rot="R90"/>
+<instance part="GND5" gate="1" x="177.8" y="66.04"/>
+<instance part="R1" gate="G$1" x="177.8" y="76.2" rot="R90"/>
 <instance part="R2" gate="G$1" x="213.36" y="114.3" rot="R90"/>
 <instance part="U$3" gate="G$1" x="15.24" y="20.32"/>
 <instance part="U$4" gate="G$1" x="22.86" y="20.32"/>
@@ -12053,8 +12053,8 @@ package type OT</description>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="111.76" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="111.76" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="JP1" gate="G$1" pin="6"/>
 </segment>
@@ -12064,7 +12064,7 @@ package type OT</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="86.36" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="68.58" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
@@ -12098,7 +12098,7 @@ package type OT</description>
 </net>
 <net name="VCC" class="0">
 <segment>
-<wire x1="172.72" y1="114.3" x2="180.34" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="114.3" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <pinref part="JP1" gate="G$1" pin="5"/>
 </segment>
@@ -12130,7 +12130,7 @@ package type OT</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<wire x1="134.62" y1="99.06" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="81.28" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 </segment>
@@ -12206,40 +12206,25 @@ package type OT</description>
 <pinref part="U2" gate="G$1" pin="A3"/>
 </segment>
 </net>
-<net name="STATUS" class="0">
-<segment>
-<wire x1="139.7" y1="116.84" x2="134.62" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="116.84" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A4"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-</segment>
-</net>
 <net name="_SO" class="0">
 <segment>
-<wire x1="170.18" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="124.46" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="B1"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="_CS" class="0">
 <segment>
-<wire x1="170.18" y1="121.92" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="B2"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="_SCK" class="0">
 <segment>
-<wire x1="170.18" y1="119.38" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="B3"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="_STATUS" class="0">
-<segment>
-<wire x1="170.18" y1="116.84" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="B4"/>
-<pinref part="JP1" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -12247,6 +12232,16 @@ package type OT</description>
 <wire x1="139.7" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="OE"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="4"/>
+<wire x1="185.42" y1="116.84" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="116.84" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="172.72" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="96.52" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
